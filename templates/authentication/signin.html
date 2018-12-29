@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>Login - Materialize</title>
+		<meta chartset="utf-8">
+		<meta name="viewport" content="width=device-width">	
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="../../css/global.css">
+		<link rel="stylesheet" href="../../css/authentication/authentication.css">
+	</head>
+
+	<body>
+		<div class="valign-wrapper h-100 w-100 absolute">
+			<div class="valign w-100">	
+				<div class="row">
+					<div id="main-col" class="col m6 offset-m3">
+						<div class="container">
+							<div id="main-card" class="card z-depth-1">
+								<div class="row">
+									<div class="container">
+										<div class="center">
+											<span class="card-title text-uppercase indigo-text text-darken-3 weight-500">Login</span>
+										</div>
+										<div class="input-field col s12">
+											<i class="fa fa-user prefix"></i>
+											<input type="text" id="user-name">
+											<label for="user-name" class="weight-500">Usuário</label>
+										</div>
+										<div class="input-field col s12 mt-0">
+											<i class="fa fa-lock prefix"></i>
+											<input type="password" id="user-password1">
+											<label for="user-password1" class="weight-500">Entrar</label>
+										</div>
+										<button id="btn-submit" type="submit" class="btn indigo w-100 weight-500 waves-effect waves-light">Entrar</button>
+										<h6 class="center weight-500"><a href="signup.html" class="indigo-text">Ainda não é cadastrado?</a></h6>
+										<h6 class="center weight-500"><a href="../../index.html" class="green-text text-darken-3">Continuar como visitante</a></h6>
+									</div>	
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<script src="../../js/authentication/authentication.js"></script>
+	</body>
+</html>

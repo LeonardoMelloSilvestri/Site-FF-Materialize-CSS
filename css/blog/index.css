@@ -1,0 +1,104 @@
+.sidenav-trigger {
+	font-size: 25px !important;
+}
+
+.sidenav {
+	width: 70% !important;
+}
+
+nav {
+	position: fixed !important;
+	top: 0;
+	z-index: 100000;
+}
+
+#main-carousel {
+	margin-top: 80px;
+}
+
+#container-main-row {
+	margin-top: 50px;
+	width: 85% !important;
+}
+
+.user-img {
+	height: 90px !important;
+	width: 90px !important;
+	border-radius: 50%;
+	border: 4px solid white;
+	position: relative;
+	margin-top: -45px !important;
+}
+
+.card-image img {
+	max-height: 400px !important;
+}
+
+.user-name {
+	letter-spacing: 3px;
+	margin-top: 4px !important;
+}
+
+.post-info {
+	margin-bottom: 20px;
+}
+
+#col-social {
+	margin-top: 5px;
+}
+
+#about-collection {
+	margin-top: 40px !important;
+}
+
+#about-header span {
+	font-size: 25px !important;
+}
+
+.carousel-item-1 {
+	background: url('../../img/finalFantasy3.png');
+	background-size: cover;
+}
+
+@media (max-width: 592px) {
+	.carousel-item-1 {
+		background: url('../../img/finalFantasy3-mobile.png');
+		background-size: cover;
+	}
+}
+
+.carousel-item-2 {
+	background: url('../../img/finalFantasy4.png');
+	background-size: cover;
+}
+
+@media (max-width: 475px) {
+	.carousel-item-2 {
+		background: url('../../img/finalFantasy4-mobile.png');
+		background-size: cover;
+	}
+}
+
+.carousel-item-3 {
+	background: url('../../img/finalFantasy6.png');
+	background-size: cover;
+}
+
+@media (max-width: 351px) {
+	.carousel-item-3 {
+		background: url('../../img/finalFantasy6-mobile.png');
+		background-size: cover;
+	}
+}
+
+.carousel-item-4 {
+	background: url('../../img/finalFantasy12.png');
+	background-size: cover;
+}
+
+@media (max-width: 675px) {
+	.carousel-item-4 {
+		background: url('../../img/finalFantasy12-mobile.png');
+		background-size: cover;
+	}
+}
